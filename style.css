@@ -1,0 +1,395 @@
+*{
+    font-family: 'Space Mono',Arial,Serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+                    /* main page  */
+
+
+.logo{
+    height: 100vh;
+    background-image: url("assets/background.png");
+    text-align: center;
+    background-size: cover;
+}
+.menu_bar{
+    color: white;
+    position: absolute;
+    font-size: 2rem;
+    top: 2.5rem;
+    left: 2rem;
+}
+.logo img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin-top: 4rem;
+}
+.logo h1{
+    color: white;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 30px;
+    padding: 1rem;
+    transform: rotate(-8deg);
+}
+.logo span{
+    color: white;
+}
+.logo a{
+    color: white;
+    font-size: 1.5rem;
+}
+.icon{
+    font-size: 3rem;
+}
+.icon1{
+        color: white;
+    margin: 1.5rem;
+    font-size: 3rem;
+}
+.icon1:hover{
+    color: teal;
+}
+.navbar{
+    font-size: 1.5rem;
+    background-color: transparent;
+    position: absolute;
+    display: flex;
+}
+.navbar a {
+    text-decoration: none;
+    margin: 1rem auto;
+    padding: 1rem;
+}
+.navbar p:hover{
+    color: teal;
+    cursor: pointer;
+}
+.new_line{
+    margin: 2rem auto;
+    width: 90%;
+    height: 10px;
+    border-radius: 10px;
+    background-color: rgb(0, 147, 147);
+}
+
+
+                        /* about page */
+
+
+.row{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 1rem;
+}
+.about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem;
+}
+.Contact{
+    width: 50%;
+    padding: 2rem;
+}
+.info{
+    width: 50%;
+    word-spacing: 5px;
+    line-height: 1.5rem;
+    text-align: left;
+    background-color: transparent;
+    padding: 2rem;
+}
+
+
+                /* resume page  */
+
+                /* education page  */
+
+
+.edu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 15px;
+    font-size: 18px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    border-radius: 4px;
+    padding-top: 4rem;
+}
+.edu h3{
+    background: #e6e6e6;
+    border-radius: 5px;
+    padding: 8px;
+}
+.education{
+    display: flex;
+    margin: 2rem;
+}
+.high_school{
+    height: 100px;
+    width: 45%;
+    text-align: right;
+    padding: 2rem ; 
+    width: 50%;
+}
+.cap{
+    padding-top: 3.5rem;
+    width: 50%;
+}
+.cap1{
+    padding-top: 3.5rem;
+    padding-left: 50%;
+    width: 50%;
+}
+.inter{
+    height: 100px;
+    width: 45%;
+    text-align: left;
+    padding: 2rem 0 0 4rem; 
+    width: 50%;
+}
+.bachelor{
+    height: 100px;
+    width: 45%;
+    text-align: right;
+    padding: 2rem ; 
+    width: 50%;
+}
+.resume h2,p{
+    padding: 10px;
+}
+
+
+                        /* internship page  */
+
+.intern{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 15px;
+    font-size: 18px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+.intern h3{
+    background: #e6e6e6;
+    border-radius: 5px;
+    padding: 8px;
+    margin-top: 3rem;
+}
+
+.intern1{
+    display: flex;
+    margin: 2rem;
+}
+.suitcase{
+    padding-top: 3.5rem;
+    width: 50%;
+}
+.java_dev{
+    height: 100px;
+    width: 45%;
+    text-align: right;
+    padding: 2rem ; 
+    width: 50%;
+}
+.intern2{
+    display: flex;
+    margin: 2rem;
+}
+.suitcase1{
+    padding-top: 3.5rem;
+    padding-left: 50%;
+    width: 50%;
+}
+.web_dev{
+    height: 100px;
+    width: 45%;
+    text-align: left;
+    padding: 2rem 0 0 4rem; 
+    width: 50%;
+}
+
+.skill{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 15px;
+    font-size: 18px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+.skill h3{
+    background: #e6e6e6;
+    border-radius: 5px;
+    padding: 8px;
+    margin-top: 3rem;
+}
+.skills{
+    display: flex;
+}
+.skill-box{
+    width: 200px;
+    margin: 1rem;
+}
+.skill-box img{
+    width: 100px;
+    height: 100px;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: rgb(43, 77, 77) 0px 0px 30px;
+}
+.skill-box h4{
+    text-align: center;
+}
+
+
+                        /* hire me page  */
+
+
+.hire{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 15px;
+    font-size: 25px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+.hire h3{
+    border-radius: 5px;
+    padding: 8px;
+    color: white;
+}
+
+.hire_me{
+    width: 100%;
+    height: 25rem;
+    color: white;
+    background-color: teal;
+}
+.para{
+    width: 70%;
+    margin: auto  20%;
+}
+.btn{
+    width: 10rem;
+    height: 3rem;
+    border-radius: 3rem;
+    margin-left: 45%;
+    display: flex;
+    margin-top: 3rem;
+    border-color: transparent;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 5px;
+    font-size: 18px;
+}
+
+
+                    /* contact us page start here  */
+
+
+.contact_us{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 45rem;
+    background-image: url(assets/cntact_us.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 15px;
+    font-size: 25px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+.cont h3{
+    border-radius: 5px;
+    padding: 8px;
+    color: white;
+}
+.cont_form{
+    width: 30%;
+    height: 37rem;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+label {
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: transparent;
+}
+input::placeholder{
+    color: rgb(219, 216, 216);
+}
+textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: transparent;
+}
+textarea::placeholder{
+    color: rgb(219, 216, 216);
+}
+.send_btn{
+    width: 40%;
+    height: 3rem;
+    background-color: teal;
+    border-radius: 3rem;
+    border: none;
+    margin-top: 2rem;
+    letter-spacing: 5px;
+    font-size: 18px;
+}
+.icon6{
+    text-align: center;
+    margin: 1rem auto;
+    font-size: 3rem;
+}
+.icon7{
+    color: white;
+    margin: 1rem;
+    font-size: 3rem;
+}
+.icon7:hover{
+    color: teal;
+}
+
+.arrow a{
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    font-size: 2rem;
+    text-decoration: none;
+    color: black;
+}
